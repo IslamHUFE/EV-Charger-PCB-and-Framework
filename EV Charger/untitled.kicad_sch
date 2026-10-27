@@ -3884,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 58.42) (xy 86.36 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37819305-95e6-4317-b024-14138057b1f4")
+	)
+	(wire
+		(pts
 			(xy 86.36 71.12) (xy 105.41 71.12)
 		)
 		(stroke
@@ -3901,6 +3911,16 @@
 			(type default)
 		)
 		(uuid "3c0b7e85-f33e-4f1c-95a0-203a951c38f8")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f27eafa-5f13-46c8-9fd9-488b10f1bfcc")
 	)
 	(wire
 		(pts
@@ -4024,6 +4044,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 63.5) (xy 86.36 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8888012e-96ca-4f44-b12d-0587a031b989")
+	)
+	(wire
+		(pts
 			(xy 86.36 68.58) (xy 105.41 68.58)
 		)
 		(stroke
@@ -4061,6 +4091,16 @@
 			(type default)
 		)
 		(uuid "ac86c924-f76e-46d0-963d-0c70ff4baa71")
+	)
+	(wire
+		(pts
+			(xy 91.44 55.88) (xy 86.36 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cc734b-8345-4928-a693-0bbeb0fd3a2a")
 	)
 	(wire
 		(pts
@@ -4142,6 +4182,16 @@
 		)
 		(uuid "1c16aee3-0690-4182-9977-e727f8973fd8")
 	)
+	(label "FDCAN1_RX"
+		(at 91.44 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e727aea-366f-484a-b505-550e69a5ca38")
+	)
 	(label "BOOT"
 		(at 91.44 78.74 0)
 		(effects
@@ -4161,6 +4211,16 @@
 			(justify left bottom)
 		)
 		(uuid "4ac11d8d-d57b-423e-a6cc-569208f4a095")
+	)
+	(label "FDCAN1_TX"
+		(at 91.44 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67fe6cb8-4424-4482-8995-fb245e473a4b")
 	)
 	(label "SLEEP"
 		(at 146.05 77.47 0)
@@ -4245,6 +4305,28 @@
 			(justify left)
 		)
 		(uuid "6705bdb6-e83c-467b-b482-475e86b92026")
+	)
+	(hierarchical_label "I2C2_SCL"
+		(shape bidirectional)
+		(at 91.44 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b03c866e-872a-4008-90cb-1ec7417c511c")
+	)
+	(hierarchical_label "I2C2_SDA"
+		(shape bidirectional)
+		(at 91.44 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b1bdfccd-bb75-498e-b57f-54ffc4552a31")
 	)
 	(symbol
 		(lib_id "Device:LED")
