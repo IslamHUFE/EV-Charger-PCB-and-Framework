@@ -215,7 +215,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "MCU.kicad_sch"
 			(at 114.3 131.3946 0)
 			(hide yes)
 			(show_name no)
