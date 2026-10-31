@@ -306,7 +306,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7c996d1-ff85-4770-9ed9-984ef65ed126")
+			(uuid "b7c996d1-ff85-4770-9ed9-984ef65ed127")
 		)
 		(instances
 			(project "EV Charger"
