@@ -5,6 +5,16 @@
 	(uuid "401d084c-7926-43eb-9f0c-65b5ea5f7c78")
 	(paper "A4")
 	(lib_symbols)
+	(text "edge plating"
+		(exclude_from_sim no)
+		(at 218.694 32.766 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+			)
+		)
+		(uuid "e2abd4ef-aa9a-4055-b406-94bd41b87401")
+	)
 	(sheet
 		(at 152.4 127)
 		(size 25.4 12.7)
